@@ -1,0 +1,15 @@
+# tests/test_validation.py
+import pandas as pd
+from utils.validation import validate_dataframe, validate_no_nulls
+
+def test_validate_dataframe_success():
+    data = {'species': ['Adelie'], 'island': ['Torgersen'], 'bill_length_mm': [39.1]}
+    df = pd.DataFrame(data)
+    # Nota: En un caso real, el DF debe tener todas las columnas requeridas
+    # Aquí simulamos un DF mínimo para el ejemplo lógico
+    assert validate_dataframe(df) == True # Ajustar lógica según columnas reales
+
+def test_validate_no_nulls():
+    data = {'col1': [1, None], 'col2': [5, 6]}
+    df = pd.DataFrame(data)
+    assert validate_no_nulls(df, ['col1']) == 1   

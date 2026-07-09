@@ -240,9 +240,8 @@ streamlit-penguins-analysis/
 ├── requirements.txt       # Dependencias (streamlit, pandas, pytest)
 ├── README.md              # Descripción del proyecto
 └── INFORME_LABORATORIO.md # Informe
-
+```
 ---
-
 
 ## ✅ Conclusiones
 

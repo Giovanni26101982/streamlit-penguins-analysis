@@ -41,13 +41,43 @@ Rama Develop
 2.3. Pruebas y Release
 Se ejecutó el suite de pruebas con pytest, validando el correcto funcionamiento de los módulos de utilidad. Tras verificar la estabilidad en develop, se fusionó el código a main y se etiquetó la versión estable con el tag v101.1.0 hasta el tag v101.1.4.
 
+**Pruebas**
+
 <img width="664" height="216" alt="image" src="https://github.com/user-attachments/assets/6636246a-9ca2-497d-bdbf-ea939a821bd1" />
 
+**Actualización de rama**
+
+<img width="661" height="141" alt="image" src="https://github.com/user-attachments/assets/244217d0-2400-4981-b800-97df0a46f970" />
+
+**Actualización a la rama MAIN**
+
+<img width="663" height="238" alt="image" src="https://github.com/user-attachments/assets/5fb317ba-82e4-4d01-a946-5e7b9bd11390" />
+
+
+**Release**
 
 <img width="666" height="109" alt="image" src="https://github.com/user-attachments/assets/02a05c7f-f3d7-445a-9dba-98fdadae5dbd" />
 
+<img width="721" height="146" alt="image" src="https://github.com/user-attachments/assets/ddeded02-69a1-45a2-91bc-637084a6c2f8" />
 
-<img width="666" height="109" alt="image" src="https://github.com/user-attachments/assets/f04b3daa-9515-4fb9-972f-5cde1e323af3" />
+**Vincular repositorio Local a GitHub**
+
+<img width="664" height="170" alt="image" src="https://github.com/user-attachments/assets/70537e6e-d0e9-4495-a8df-bb4b67446af4" />
+
+**Revisar estado de la rama y hacer commit**
+<img width="665" height="542" alt="image" src="https://github.com/user-attachments/assets/dd35124a-0e06-4b92-8117-7a7a585fa7dd" />
+
+**Realizamos el Merge**
+
+<img width="661" height="437" alt="image" src="https://github.com/user-attachments/assets/fa16e3a8-c40f-46e4-8250-afa07e5b2a72" />
+
+**Subimos a GitHub**
+
+<img width="665" height="509" alt="image" src="https://github.com/user-attachments/assets/5a517f0d-b6ba-4707-9d69-60a301042afc" />
+
+**Ejecutamos**
+
+<img width="665" height="675" alt="image" src="https://github.com/user-attachments/assets/18390da5-7044-46fb-864c-5da34400187c" />
 
 
 ---
@@ -58,19 +88,24 @@ Se ejecutó el suite de pruebas con pytest, validando el correcto funcionamiento
 
 La aplicación carga correctamente, valida los datos y muestra las métricas iniciales.
 
-[INSERTAR AQUÍ CAPTURA DE PANTALLA DEL DASHBOARD PRINCIPAL CON MÉTRICAS]
+<img width="1214" height="378" alt="image" src="https://github.com/user-attachments/assets/543d7c53-384a-41f7-a258-c73a8ee46536" />
+
 
 3.2. **Visualización Tabular**
 
 Se muestra la tabla interactiva con los datos de los pingüinos y los gráficos de distribución.
 
-[INSERTAR AQUÍ CAPTURA DE PANTALLA DE LA TABLA DE DATOS Y GRÁFICOS]
+<img width="1214" height="505" alt="image" src="https://github.com/user-attachments/assets/1ebfa284-ab3d-4205-9725-e4374883656f" />
+
+<img width="1223" height="338" alt="image" src="https://github.com/user-attachments/assets/5ee75420-a51b-493c-a20f-77017e5feed4" />
+
 
 3.3. **Pruebas con Pytest**
 
 Ejecución exitosa de los tests unitarios en la terminal, confirmando la validez del código.
 
-[INSERTAR AQUÍ CAPTURA DE PANTALLA DE LA TERMINAL CON EL RESULTADO DE PYTEST (verde)]
+<img width="664" height="216" alt="image" src="https://github.com/user-attachments/assets/e38895a9-7d2e-4574-af5d-a88111019d52" />
+
 
 ---
 

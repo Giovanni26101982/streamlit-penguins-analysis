@@ -5,8 +5,8 @@
 ## 🚀 Integrantes
 | Nro. | Nombre | Link |
 |------|---------|---------|
-| 1 | Giovanni Xavier Baño Jaya | https://github.com/Giovanni26101982/Grupo4_Docker_TareaFinal |
-| 2 | Jara Pauta Cesar Paúl | https://github.com/PaulJara84/Grupo4_Docker_TareaFinal |
+| 1 | Giovanni Xavier Baño Jaya | https://github.com/Giovanni26101982/streamlit-penguins-analysis |
+| 2 | Jara Pauta Cesar Paúl |  |
 
 ---
 

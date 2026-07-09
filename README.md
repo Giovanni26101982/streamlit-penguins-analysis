@@ -214,7 +214,7 @@ El repositorio debe incluir dos archivos Markdown clave:
 
 ---
 
-##Checklist Final de Entrega
+## Checklist Final de Entrega
 
 Antes de considerar la tarea finalizada, verifica en tu repositorio remoto de GitHub:
 
@@ -224,13 +224,22 @@ Antes de considerar la tarea finalizada, verifica en tu repositorio remoto de Gi
 - [ ] Archivos README.md e INFORME_LABORATORIO.md visibles y con contenido.
 - [ ] Historial de commits que refleje el uso de ramas feature (ej. "Merge branch 'feature/validacion-datos'").
 
-## 📂 Estructura
-```bash
-flowise-postgres/
-│── docker-compose.yml
-│── .env
-└── README.md
-```
+## 📂 Estructura del Proyecto
+El repositorio se organiza de la siguiente manera para separar la lógica, las pruebas y la interfaz:
+
+```text
+streamlit-penguins-analysis/
+├── .git/                  # Repositorio Git (ramas main, develop, features)
+├── utils/                 # Lógica de negocio
+│   └── validation.py      # Funciones de validación de datos
+├── tests/                 # Pruebas unitarias
+│   └── test_validation.py # Tests para validación
+├── data/                  # Datos
+│   └── penguins.csv       # Dataset de pingüinos
+├── app.py                 # Punto de entrada de la aplicación Streamlit
+├── requirements.txt       # Dependencias (streamlit, pandas, pytest)
+├── README.md              # Descripción del proyecto
+└── INFORME_LABORATORIO.md # Informe
 
 ---
 

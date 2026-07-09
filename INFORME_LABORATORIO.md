@@ -10,17 +10,18 @@ Desarrollar una aplicación de análisis de datos sobre el dataset Palmer Pengui
 
 Se inicializó el repositorio estableciendo la rama **main** para producción y **develop** para integración. El desarrollo se realizó mediante ramas de característica (**feature/**) aisladas para evitar conflictos:
 
-- feature/validacion-datos: Implementación de lógica de validación de esquemas y nulos.
-- feature/app-principal: Estructura base de la interfaz en Streamlit.
-- feature/viz-tabular: Implementación de visualización de datos interactiva.
-- feature/pruebas-pytest: Creación de tests unitarios para las funciones de validación.
-- Cada rama fue fusionada a develop utilizando git merge --no-ff para preservar el historial de características.
+- **feature/validacion-datos**: Implementación de lógica de validación de esquemas y nulos.
+- **feature/app-principal**: Estructura base de la interfaz en Streamlit.
+- **feature/viz-tabular**: Implementación de visualización de datos interactiva.
+- **feature/pruebas-pytest**: Creación de tests unitarios para las funciones de validación.
+
+Cada rama fue fusionada a **develop** utilizando **git merge --no-ff** para preservar el historial de características.
 
 2.2. **Desarrollo de la Aplicación**
 
-Validación: Se crearon funciones en utils/validation.py para asegurar la integridad del dataset antes de su procesamiento.
-Interfaz: La aplicación app.py carga el archivo penguins.csv, valida los datos y muestra métricas clave (totales y nulos).
-Visualización: Se implementó una tabla interactiva y gráficos de distribución utilizando las libreras nativas de Streamlit.
+- **Validación**: Se crearon funciones en **utils/validation.py** para asegurar la integridad del dataset antes de su procesamiento.
+- **Interfaz**: La aplicación **app.py** carga el archivo **penguins.csv**, valida los datos y muestra métricas clave (totales y nulos).
+- **Visualización**: Se implementó una tabla interactiva y gráficos de distribución utilizando las libreras nativas de Streamlit.
 
 2.3. Pruebas y Release
 Se ejecutó el suite de pruebas con pytest, validando el correcto funcionamiento de los módulos de utilidad. Tras verificar la estabilidad en develop, se fusionó el código a main y se etiquetó la versión estable con el tag v1.0.0.

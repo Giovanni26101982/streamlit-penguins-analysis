@@ -237,24 +237,9 @@ flowise-postgres/
 
 ## ✅ Conclusiones
 
-1. **Compatibilidad de versión de Compose**
+1. **Estandarización del Flujo de Trabajo con GitFlow**: La implementación de ramas feature aisladas demostró ser una estrategia efectiva para desarrollar funcionalidades complejas (validación, visualización, pruebas) de manera ordenada, eliminando la necesidad de correcciones de emergencia (hotfix) y garantizando un historial de versiones limpio y trazable.
 
-   -	La instrucción name: solo es reconocida en la especificación moderna de Compose (ejecutando docker compose en lugar de docker-compose).
-     <img width="886" height="117" alt="image" src="https://github.com/user-attachments/assets/9d6de6da-b703-4fc5-a47b-2afc23410a30" />
-
-   -	Se detectó que version: ya es obsoleto en Compose V2, por lo que puede omitirse para evitar advertencias.
-     <img width="711" height="441" alt="image" src="https://github.com/user-attachments/assets/a68e5832-6cc0-4540-a947-db94d9bbd159" />
-
-2. **Gestión de espacio en disco**
-
-   - Durante la descarga de la imagen flowiseai/flowise:1.6.3 se produjo un error de “no space left on device”.
-   - Se resolvió mediante limpieza de imágenes, volúmenes y contenedores no utilizados, confirmando la importancia de tener espacio disponible antes de la instalación.
-
-3.	**Ejecución del contenedor Flowise**
+2. **Importancia de la Validación Temprana de Datos**: La integración de funciones de validación (utils/validation.py) antes de la visualización confirmó que asegurar la integridad del dataset (verificación de columnas y nulos) es crítico para evitar errores en tiempo de ejecución en aplicaciones de datos, mejorando la robustez del dashboard frente a inconsistencias en el archivo penguins.csv.
    
-      - El contenedor entraba en bucle de reinicios porque la imagen oficial requiere ejecutar explícitamente el comando flowise start.
-      - Al añadir command: ["flowise", "start"] en el docker-compose.yml, el servicio se inicializó correctamente y quedó accesible en el puerto configurado.
-     
-4.	**Base de datos y persistencia**
+3. **Calidad del Código mediante Pruebas Automatizadas**: El uso de pytest permitió verificar la lógica de negocio de forma unitaria antes del despliegue, demostrando que la automatización de pruebas es esencial para detectar errores lógicos en etapas tempranas del desarrollo, facilitando un release confidente y estable (v101.1.4 ultimo versión desarrollada).
 
-      - El contenedor PostgreSQL respondió como healthy, lo que confirma que la configuración de credenciales (POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB) fue 

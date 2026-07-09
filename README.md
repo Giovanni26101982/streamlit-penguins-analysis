@@ -36,6 +36,18 @@ git commit -m "Initial commit"
 git branch develop
 git checkout develop   
 ```
+Paso 1: 
+
+<img width="670" height="633" alt="image" src="https://github.com/user-attachments/assets/1ff589a0-48c7-4538-9c8e-eb7363d25a03" />
+
+Paso 2:
+
+<img width="669" height="254" alt="image" src="https://github.com/user-attachments/assets/f306a898-b1d0-49be-b14e-2f1ddad55d44" />
+
+Paso 3: 
+
+<img width="660" height="165" alt="image" src="https://github.com/user-attachments/assets/8d06a804-54c3-4c14-b860-06bdea3bee64" />
+
 
 ---
 
@@ -159,6 +171,9 @@ Ejecuta las pruebas localmente para verificar:
      pytest tests/ -v
 ```
 
+<img width="664" height="216" alt="image" src="https://github.com/user-attachments/assets/07b89dc8-a279-4d46-8870-bebb857c2925" />
+
+
 ---
 
 ## 4. Lanzamiento y Documentación (Release)
@@ -177,6 +192,8 @@ git merge feature/pruebas-pytest --no-ff
 
 # Verificar que todo funcione en develop antes de pasar a main
 ```
+<img width="664" height="216" alt="image" src="https://github.com/user-attachments/assets/db7e508b-7d40-417c-a046-b4bbc6cddfea" />
+
 
 4.2. **Creación del Release y Tags**
 
@@ -192,6 +209,14 @@ git tag -a v1.0.0 -m "Release inicial: App Streamlit con validación y tests"
 # Subir todo a GitHub (asumiendo remoto configurado como 'origin')
 git push origin main develop --tags   
 ```
+PAso 1: Merge
+
+<img width="663" height="238" alt="image" src="https://github.com/user-attachments/assets/dad280f7-32fd-4712-ad60-6130c4e66b4a" />
+
+Paso 2: Versionamiento - Para nuestro caso tomamos la codificación: v101.1.0 inicial
+
+<img width="666" height="109" alt="image" src="https://github.com/user-attachments/assets/53d7e646-d3da-450f-b994-112d981f4f14" />
+
 
 ---
 

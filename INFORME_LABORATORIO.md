@@ -342,7 +342,7 @@ streamlit-penguins-analysis/
 
 2. **Importancia de la Validación Temprana de Datos**: La integración de funciones de validación (utils/validation.py) antes de la visualización confirmó que asegurar la integridad del dataset (verificación de columnas y nulos) es crítico para evitar errores en tiempo de ejecución en aplicaciones de datos, mejorando la robustez del dashboard frente a inconsistencias en el archivo penguins.csv.
    
-3. **Calidad del Código mediante Pruebas Automatizadas**: El uso de pytest permitió verificar la lógica de negocio de forma unitaria antes del despliegue, demostrando que la automatización de pruebas es esencial para detectar errores lógicos en etapas tempranas del desarrollo, facilitando un release confidente y estable (v101.1.4 ultimo versión desarrollada).
+3. **Calidad del Código mediante Pruebas Automatizadas**: El uso de pytest permitió verificar la lógica de negocio de forma unitaria antes del despliegue, demostrando que la automatización de pruebas es esencial para detectar errores lógicos en etapas tempranas del desarrollo, facilitando un release confidente y estable (v10001.1.0 ultimo versión desarrollada).
 
 4. Se logró implementar exitosamente un ciclo de vida de desarrollo de software ágil mediante GitFlow, garantizando la calidad del código a través de pruebas unitarias y entregando una aplicación funcional de análisis de datos. El repositorio cuenta con las ramas main, develop, el tag de versión y la documentación requerida.
 

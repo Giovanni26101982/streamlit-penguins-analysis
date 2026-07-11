@@ -312,7 +312,7 @@ El repositorio incluye dos archivos Markdown clave:
 El proyecto terminó y estos son los entregables del repositorio remoto de GitHub:
 
 - [ ] Existencia de la rama main y develop.
-- [ ] Presencia del tag v101.1.0 (o similar) en la sección de "Releases" o "Tags".
+- [ ] Presencia del tag v10001.1.0 en la sección de "Releases" o "Tags".
 - [ ] Archivo penguins.csv cargado en el repositorio.
 - [ ] Archivos README.md e INFORME_LABORATORIO.md visibles y con contenido.
 - [ ] Historial de commits que refleje el uso de ramas feature (ej. "Merge branch 'feature/validacion-datos'").

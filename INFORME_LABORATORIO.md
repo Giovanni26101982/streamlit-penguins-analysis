@@ -1,5 +1,12 @@
 # Informe de Laboratorio: Aplicación Streamlit con GitFlow
 
+# 🚀 Integrantes
+| Nro. | Nombre |
+|------|---------|
+| 1 | Giovanni Xavier Baño Jaya |
+| 2 | Jara Pauta Cesar Paúl | 
+
+---
 
 # Indice
 
